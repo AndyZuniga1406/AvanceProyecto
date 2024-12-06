@@ -28,7 +28,7 @@ public class SimuladorDeFut {
 
         int numeroCamisa = Integer.parseInt(JOptionPane.showInputDialog("Introduce tu número de camiseta:"));
 
-        String posicion = JOptionPane.showInputDialog("Introduce tu posición (Ej: delantero, defensa, etc.):");
+        String posicion = JOptionPane.showInputDialog("Introduce tu posición:");
 
         temporada.agregarJugador(nombreJugador, numeroCamisa, posicion);
 
